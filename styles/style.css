@@ -1,4 +1,4 @@
-/* universal section */
+/* universal styles */
 *{
     margin: 0;
     padding: 0;
@@ -6,6 +6,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+/* button styles */
 .btn{
     width: 160px;
     height: 64px;
@@ -15,6 +16,16 @@
     line-height: 23px;
     border: none;
     cursor: pointer;
+}
+
+.btn-white{
+    background-color: #fff;
+    color: #F15B22;
+}
+
+.btn-orange{
+    background-color: #F15B22;
+    color: #fff;
 }
 
 /* header styles */
@@ -51,12 +62,6 @@ header{
     padding: 0 0 27px 100px;
 }
 
-.btn-orange{
-    background-color: #F15B22;
-    color: #fff;
-}
-
-
 /* failures section styles */
 .failures{
     display: flex;
@@ -65,14 +70,17 @@ header{
     width: 75%;
     margin: 8% auto;
 }
+
 .failures .des-section{
     width: 50%;
     padding: 100px 10%;
     color: #444343;
 }
+
 .failures .des-section .failures-list{
     list-style: none;
 }
+
 .failures .des-section .failures-list li i{
     color: #16D887;
 }
@@ -99,12 +107,12 @@ header{
 }
 
 /* my-plans section styles */
-
 .my-plans{
     text-align: center;
     width: 80%;
     margin: auto;
 }
+
 .plans{
     display: flex;
     justify-content: space-between;
@@ -123,6 +131,7 @@ header{
     font-size: 30px;
     line-height: 35px;
 }
+
 .plan .plan-description{
     font-weight: 500;
     font-size: 25px;
@@ -132,6 +141,56 @@ header{
 
 .plan .plan-title{
     margin: 20px;
+}
+
+/* Time management section styles */
+.time-management{
+    background-color: #F8FBFD;
+    padding: 100px 0;
+    margin-bottom: 150px;
+}
+
+.time-management-title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 50px;
+}
+
+.tips{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.tip{
+    width: 31%;
+    border: 1px solid #64b7ff;
+    padding: 50px;
+    margin: 10px;
+    background-color: #ffbc9b;
+    border-radius: 10px;
+}
+
+.tip i{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.tip-title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 16px;
+}
+
+.tip-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
 }
 
 /* call-now section styles */
@@ -145,7 +204,7 @@ header{
     height: 400px;
     margin-bottom: 150px;
     color: white;
-    border-radius: 10px;
+    border-radius: 8px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -160,11 +219,6 @@ header{
     margin-bottom: 24px;
 }
 
-.btn-white{
-    background-color: #fff;
-    color: #F15B22;
-}
-
 /* footer section styles */
 footer{
     background-color: rgba(21, 20, 20, 1);
@@ -173,15 +227,18 @@ footer{
     padding: 10% 15%;
     justify-content: space-between;
 }
+
 .future{
     width: 60%;
 }
+
 .future-title{
     font-weight: 700;
     font-size: 45px;
     line-height: 53px;
     margin-bottom: 16px;
 }
+
 .future-description{
     font-weight: 400;
     font-size: 16px;
@@ -193,21 +250,26 @@ footer{
     list-style: none;
     display: flex;
 }
+
 .future .social-icons li a{
     text-decoration: none;
 }
+
 .future .social-icons li{
     margin-right: 20px;
 }
+
 .subscribe{
     width: 30%;
 }
+
 .subscription-title{
     font-weight: 600;
     font-size: 25px;
     line-height: 29px;
     margin-bottom: 30px;
 }
+
 form input[type="email"]{
     width: 350px;
     height: 60px;
@@ -220,6 +282,7 @@ form input[type="email"]{
     margin-right: 20px;
     margin-bottom: 20px;
 }
+
 form input[type="email"]::placeholder{
     color: #F3F3F3;
 }
