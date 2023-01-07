@@ -1,0 +1,225 @@
+/* universal section */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn{
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    border: none;
+    cursor: pointer;
+}
+
+/* header styles */
+header{
+    background-image: url(../images/banner/banner1.png);
+    height: 800px;
+    text-align: right;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 200px;
+    display: flex;
+}
+
+.blank{
+    width: 50%;
+}
+
+.header-content{
+    width: 50%;
+}
+
+.header-title{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    padding: 0 0 27px 100px;
+}
+
+.header-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 0 0 27px 100px;
+}
+
+.btn-orange{
+    background-color: #F15B22;
+    color: #fff;
+}
+
+
+/* failures section styles */
+.failures{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+    margin: 8% auto;
+}
+.failures .des-section{
+    width: 50%;
+    padding: 100px 10%;
+    color: #444343;
+}
+.failures .des-section .failures-list{
+    list-style: none;
+}
+.failures .des-section .failures-list li i{
+    color: #16D887;
+}
+
+.failures .des-section .failures-list li{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 8px;
+}
+
+.failures-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 24px;
+}
+
+.failures-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+/* my-plans section styles */
+
+.my-plans{
+    text-align: center;
+    width: 80%;
+    margin: auto;
+}
+.plans{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+
+.my-plans h3{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 56px;
+}
+
+.plan .plan-title{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+}
+.plan .plan-description{
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    color: #737272;
+}
+
+.plan .plan-title{
+    margin: 20px;
+}
+
+/* call-now section styles */
+.call-now{
+    width: 80%;
+    margin: auto;
+    background-image: url(../images/watch.png), linear-gradient(to right, rgba(241, 91, 34, 1), rgba(241, 91, 34, 0));
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    height: 400px;
+    margin-bottom: 150px;
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 100px;
+}
+
+.call-now-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    padding-right: 55%;
+    margin-bottom: 24px;
+}
+
+.btn-white{
+    background-color: #fff;
+    color: #F15B22;
+}
+
+/* footer section styles */
+footer{
+    background-color: rgba(21, 20, 20, 1);
+    color: rgba(248, 248, 248, 1);
+    display: flex;
+    padding: 10% 15%;
+    justify-content: space-between;
+}
+.future{
+    width: 60%;
+}
+.future-title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    margin-bottom: 16px;
+}
+.future-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.future .social-icons{
+    list-style: none;
+    display: flex;
+}
+.future .social-icons li a{
+    text-decoration: none;
+}
+.future .social-icons li{
+    margin-right: 20px;
+}
+.subscribe{
+    width: 30%;
+}
+.subscription-title{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    margin-bottom: 30px;
+}
+form input[type="email"]{
+    width: 350px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    outline: none;
+    color: #F3F3F3;
+    background: none;
+    padding-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+form input[type="email"]::placeholder{
+    color: #F3F3F3;
+}
